@@ -3,8 +3,9 @@ var React = require('react');
 var About = (props) => {
     return (
         <div>
-        <h3>About </h3>
-        <p>Welcome to about!</p> 
+        <h1 className="text=center">Welcome to the About Page!</h1>
+        <p>Here is the filler text for the application I have created.
+        Here we display the weather based on an input supplied by the user</p>
         </div>
     )
 };
